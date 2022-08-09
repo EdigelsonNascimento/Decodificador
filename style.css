@@ -85,6 +85,7 @@ h4 {
 /* Estilo textarea */
 textarea, textarea:focus, input:focus, select:focus {
   outline: 0;
+  width: 300px;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   border:none;

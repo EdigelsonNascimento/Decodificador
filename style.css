@@ -16,7 +16,7 @@ html, body {
 }
 /* Boas vindas */
 .bv {
-  width auto;
+  width: auto;
   display: flex;
   flex-direction: row;
   justify-content: center;

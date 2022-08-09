@@ -40,7 +40,6 @@ let onlimpar = document.getElementById("limpar")
    textLimpo=msgText
    textLimpo.select()
    document.execCommand("delete")
-      alert("Caixa de texto Limpa :)")
  }
  // ONCLICk //
  oncod.onclick=cript

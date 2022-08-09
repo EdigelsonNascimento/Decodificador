@@ -61,7 +61,7 @@ h4 {
 }
 /* Estilo Conteúdo */
 #conteudo {
-   width: 700px;
+   width: auto;
    margin-left: auto;
    margin-right: auto;
    left: 50%;

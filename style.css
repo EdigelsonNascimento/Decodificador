@@ -1,0 +1,142 @@
+/* Resetar Corpo */
+html, body {
+  background: white;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+/* Divisão da logo */
+#logo {
+  width: auto;
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: #ade0db;
+}
+/* Boas vindas */
+.bv {
+  width auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: #ebf2f2;
+}
+/* Estilo para logo */
+h1 {
+  width: 20px;
+  color: #d0f2e7;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 40px;
+  font-family: 'Montserrat', sans-serif;
+}
+/* Estilo H2 */
+h2 {
+  width: 400px;
+  color: #ade0db;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+/* Estilo H3 */
+h3 {
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+/* Estilo H2 Parágrafo */
+h3 > p {
+  font-size: 10px;
+  font-family: 'Montserrat', sans-serif;
+}
+/* Estilo H4 */
+h4 {
+  color: black;
+  font-size: 8px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+/* Estilo Conteúdo */
+#conteudo {
+   width: 700;
+   margin-left: auto;
+   margin-right: auto
+   left: 50%;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+}
+/* Estilo Caixa */
+#caixa > textarea {
+    text-align: center;
+    box-shadow: 0 0 0 0;
+    border: 0;
+    outline: 0;
+    resize: none;
+    background-color: transparent;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+/* Estilo textarea */
+textarea, textarea:focus, input:focus, select:focus {
+  outline: 0;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  border:none;
+  background: transparente;
+  border-radius: 2px;
+  resize: none;
+}
+/* Estilo Botao1 */
+#botao1 {
+  width: auto;
+  height: 30px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 11px;
+}
+/* Estilo Botão2 */
+#botao2 {
+  width: auto;
+  height: 30px;
+  background-color: blue;
+  color: White;
+  border: none;
+  border-radius: 2px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 11px;
+}
+/* Estilo Botao3 */
+#copiar {
+  width: auto;
+  height: 30px;
+  background-color: #cccccc;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 11px;
+}
+/* Estilo Botão4 */
+#limpar {
+  width: auto;
+  height: 30px;
+  background-color: #cccccc;
+  color: white;
+  border: none;
+  border-radius: 2px;  
+  font-family: 'Montserrat', sans-serif;
+  font-size: 11px;
+}
+/* Resposivo mobile */
+@media screen and (max-width: 480px) {
+   max-width: 480px;
+} 

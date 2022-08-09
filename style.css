@@ -12,7 +12,7 @@ html, body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background: #ade0db;
+  background: #181018;
 }
 /* Boas vindas */
 .bv {
@@ -21,12 +21,12 @@ html, body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background: #ebf2f2;
+  background: #302830;
 }
 /* Estilo para logo */
 h1 {
   width: 20px;
-  color: #d0f2e7;
+  color: #401818;
   font-size: 50px;
   text-align: center;
   margin-top: 40px;
@@ -35,7 +35,7 @@ h1 {
 /* Estilo H2 */
 h2 {
   width: 400px;
-  color: #cdcdcd;
+  color: #E0E0E0;
   font-size: 20px;
   font-family: 'Montserrat', sans-serif;
   text-align: center;

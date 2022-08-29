@@ -21,19 +21,21 @@
    margin: 0;
    padding: 0;
  }
+
+html, body {
  
-html {
-   position: relative;
-   width: 100%;
-   height: 100%;
- }
+    height: 100%;
+}
+
+body {
+    background: black;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
 
  a {
    text-decoration: none;
- }
- 
- body {
-   background: black;
  }
  
  h1 {
@@ -67,12 +69,6 @@ h4 {
    font-family: 'Montserrat', sans-serif;
  }
  
- .creditos {
-   justify-content: center;
-   width: 100%;
-   margin-top: 190px;
-   bottom: 0px;
- }
  .caixa {
    margin-top: 80px;
  }
@@ -101,10 +97,36 @@ textarea, textarea:focus, input:focus, select:focus {
   border-radius: 2px;
   resize: none;
 }
+#caixa > textarea {
+     text-align: center;
+     box-shadow: 0 0 0 0;
+     border: 0;
+     outline: 0;
+     resize: none;
+     background: none;
+     box-shadow: none;
+     -moz-box-shadow: none;
+     -webkit-box-shadow: none;
+   }
+
+  textarea, textarea:focus, input:focus, select :focus {
+     outline: 0;
+     width: 300px;
+     height: 80px;
+     text-align: center;
+     font-family: 'Montserrat', sans-serif;
+     border:none;
+     background: black;
+     font-size: 30px;
+     color: white;
+     border-radius: 2px;
+     resize: none;
+}
 
    #botao1, #botao2, #copiar, #limpar {
       width: 180px;
       height: 60px;
+      margin-top: 4px;
       border: none;
       border-radius: 3px;
       font-family: 'Montserrat', sans-serif; 
@@ -112,7 +134,13 @@ textarea, textarea:focus, input:focus, select:focus {
       text-align: center;
       list-style: none;
    }
-  
+    
+  .creditos {
+    width: 100%
+    bottom: 0;
+    margin-top: auto;
+  }
+ 
  @media screen and (max-width: 480px) {
    .caixa {
      width: 100%;
@@ -185,7 +213,7 @@ textarea, textarea:focus, input:focus, select:focus {
   </div>
   </header>
   
-<body>
+<body class="conteudo">
   
    <section class="caixa">
 
@@ -211,11 +239,10 @@ textarea, textarea:focus, input:focus, select:focus {
    <script src="./encrypt.js"></script>
    
   </body>
-
-  <footer class="creditos"><!-- Créditos -->
+  
+ <footer class="creditos"><!-- Créditos -->
    <img src="./logo.png" alt="Edigelson Nascimento" width="30px" height="30px"/>
   <h4>Edigelson Nascimento © 2022 - Todos os direitos reservados.</h4>
-  
- </footer>
  
+ </footer>
  </html>

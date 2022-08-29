@@ -1,6 +1,6 @@
 /* Resetar Corpo */
 html, body {
-  background: white;
+  background: black;
   padding: 0;
   margin: 0;
   width: 100%;
@@ -80,7 +80,7 @@ h4 {
     border: 0;
     outline: 0;
     resize: none;
-    background-color: transparent;
+    background-color: white;
     box-shadow: none;
     -moz-box-shadow: none;
     -webkit-box-shadow: none;

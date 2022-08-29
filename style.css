@@ -9,13 +9,7 @@ html, body {
 }
 /* Divisão da logo */
 #logo {
-  width: auto;
-  height: 150px;
-  display: flex;
-  flex-direction: row;
   justify-content: center;
-  align-items: center;
-  background: #181018;
 }
 /* Boas vindas */
 .bv {

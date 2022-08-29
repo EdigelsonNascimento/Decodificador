@@ -70,47 +70,96 @@ h4 {
  .creditos {
    justify-content: center;
    width: 100%;
+   margin-top: 80px;
    bottom: 0px;
-   position: absolute;
  }
- 
-.botao {
-  width: 380px;
-  height: 60px;
-  margin: 0 auto;
-  display: flex;
-  border: none;
-  border-radius: 3px;
-  font-family: 'Montserrat', sans-serif; 
-  font-size: 30px; 
+ .caixa {
+   margin-top: 80px;
+ }
+
+#caixa > textarea {
+    text-align: center;
+    box-shadow: 0 0 0 0;
+    border: 0;
+    outline: 0;
+    resize: none;
+    color: white;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+textarea, textarea:focus, input:focus, select:focus {
+  outline: 0;
+  width: 300px;
+  height: 18px;
+  align-content: center;
   text-align: center;
-  justify-content: center;
- }
- .movebotao {
-   margin: 50px;
-   display: flex;
-   justify-content: center;
- }
- 
- @media screen and (max-width: 480px) {
-   .botao {
-      width: 350px;
+  font-family: 'Montserrat', sans-serif;
+  border:none;
+  background: white;
+  border-radius: 2px;
+  resize: none;
+}
+
+   #botao1, #botao2, #copiar, #limpar {
+      width: 180px;
       height: 60px;
-      margin: 0 auto;
-      display: flex;
       border: none;
       border-radius: 3px;
       font-family: 'Montserrat', sans-serif; 
-      font-size: 30px; 
+      font-size: 13px; 
       text-align: center;
-      justify-content: center;
-    }
- 
+      list-style: none;
+   }
+  
+ @media screen and (max-width: 480px) {
+   .caixa {
+     width: 100%;
+     height: 400px;
+     margin-top: 80px;
+     position: relative;
+   }
+
+  #caixa > textarea {
+     text-align: center;
+     box-shadow: 0 0 0 0;
+     border: 0;
+     outline: 0;
+     resize: none;
+     background-color: white;
+     box-shadow: none;
+     -moz-box-shadow: none;
+     -webkit-box-shadow: none;
+   }
+
+  textarea, textarea:focus, input:focus, select :focus {
+     outline: 0;
+     width: 300px;
+     height: 18px;
+     text-align: center;
+     font-family: 'Montserrat', sans-serif;
+     border:none;
+     background: transparente;
+     border-radius: 2px;
+     resize: none;
+}
+   #botao1, #botao2, #copiar, #limpar {
+      width: 300px;
+      height: 60px;
+      margin-top: 4px;
+      border: none;
+      border-radius: 3px;
+      font-family: 'Montserrat', sans-serif; 
+      font-size: 13px; 
+      text-align: center;
+      list-style: none;
+   }
+   
     h2, h3 {
       color: white;
       text-align: center;
       position: relative;
- 
       font-size: 14px;
       font-family: 'Montserrat', sans-serif;
     }
@@ -126,20 +175,42 @@ h4 {
  }
  
 </style>
+
    <div id="logo"> 
    <center><img src="./logo.png" alt="Edigelson Nascimento" width="200px" height="200px"/></center>
    <h1>Edigelson Nascimento</h1><br>
-   <h2>🤖 • Decodificador em { Manutenção }</h2>
+   <h2>🤖 • Bem vindo(a) ao { Decodificador}</h2>
   </div>
   </header>
   
 <body>
-    
+  
+   <section class="caixa">
+
+     <center><textarea id="caixamsg" rows="3" cols="20"placeholder="Digite aqui"></textarea><br /></div>
+<textarea id="caixamsg2" rows="3" cols="20"></textarea>
+<br><br>
+<ul>
+<li><button id="botao1">🔒 Criptografar</button></li>
+<li><button id="botao2">🔓 Descriptografar</button></li>
+<li><button id="copiar">📝 Cópia</button></li>
+<li><button id="limpar">🧹 Limpar</button></li>
+</ul>
+</div></center>
+
+   </section>
+ 
+   <script src="./encrypt.js"></script>
+   
   </body>
 
   <footer class="creditos"><!-- Créditos -->
-<center><img src="./logo.png" alt="Edigelson Nascimento" width="30px" height="30px"/></center>
-  <h4>Edigelson Nascimento © 2022 - Todos os direitos reservados.</h4>
+  
+  <center><h4><p>😎 Conquista: Badge Oracle Challege</p>
+   <img src="https://d335luupugsy2.cloudfront.net/cms%2Ffiles%2F10224%2F1659462279Badge_Sharer_Alura_ChallengeOracleONE_2000x2000_V3.png?utm_campaign=alura_latam_-_challenge_email_projeto_1_br&utm_medium=email&utm_source=RD+Station" alt="alura" width="200px" height="200px"/><br>
+   <img src="./logo.png" alt="Edigelson Nascimento" width="30px" height="30px"/>
+  <h4>Edigelson Nascimento © 2022 - Todos os direitos reservados.</h4></center>
+  
  </footer>
  
  </html>

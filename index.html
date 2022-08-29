@@ -1,51 +1,145 @@
-<!DOCTYPE HTML>
-<html>
-<head><!-- META/ESTILO/TITULO/FONT -->
-  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-  <meta name="viewport" content="width=device-width">
-  <link rel="stylesheet" href="./style.css" type="text/css" media="all" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap" rel="stylesheet">
-  <title>Decodificador</title>
-</head>
-<header>
-  <div id="logo">
-    <h1>a</h1>
-  </div>
-  <header><!--- Boas vindas --->
-    <div class="bv">
-      <h2>Olá, seja bem vindo(a) ao decodificador, aqui você ira codificar seus texto para torna-lo muito mais seguro.</h2>
-    </div>
-  </header>
-  <body><!-- Conteúdo -->
-<center><div id="conteudo">
-   <h3>Alura: ONE Oracle Next Education<p>Challenge Decodificador</h3>
-   
-   <div class="text">
-     
-   <div id="caixa">
-   
-<textarea id="caixamsg" rows="3" cols="20"placeholder="Digite aqui"></textarea><br /></div>
-<textarea id="caixamsg2" rows="3" cols="20"></textarea>
-<br /><br />
-<button id="botao1">🔒 Criptografar</button>
-<button id="botao2">🔓 Descriptografar</button>
-<button id="copiar">📝 Cópia</button>
-<button id="limpar">🧹 Limpar</button>
-</div></center>
-
- </div>
-   <script src="./encrypt.js"></script>
-  </body>
-  <br>
-  <br>
-  <br>
-  <br>
-   <footer class="footer"><!-- Créditos --> 
-   <center><h4><p>Conquista: Badge Oracle Challege</p>
-   <img src="https://d335luupugsy2.cloudfront.net/cms%2Ffiles%2F10224%2F1659462279Badge_Sharer_Alura_ChallengeOracleONE_2000x2000_V3.png?utm_campaign=alura_latam_-_challenge_email_projeto_1_br&utm_medium=email&utm_source=RD+Station" alt="alura" width="200px" height="200px"/>
-   <center>Edigelson Nascimento © 2022 - Todos os direitos reservados.</h4></center>
-  </footer>
+<!DOCTYPE HTML> 
+ <html lang="pt-BR"> 
+ <head><!-- META/ESTILO/TITULO/FONT -->
+   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+   <meta name="viewport" content="width=device-width">
+ <link rel="preconnect" href="https://fonts.googleapis.com"> 
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+ <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap" rel="stylesheet">
+ <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+ <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+ <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+ <link rel="manifest" href="./site.webmanifest">
+   <title>Edigelson Nascimento - DEV</title> 
+  </head>
   
+ <header>
+   
+ <style>
+ 
+ * {
+   margin: 0;
+   padding: 0;
+ }
+ 
+html {
+   position: relative;
+   width: 100%;
+   height: 100%;
+ }
+
+ a {
+   text-decoration: none;
+ }
+ 
+ body {
+   background: black;
+ }
+ 
+ h1 {
+   color: white;
+   text-align: center;
+   font-size: 50px;
+   font-family: 'Montserrat', sans-serif;
+ }
+ 
+ h1 {
+   color: white;
+   text-align: center;
+   font-size: 30px;
+   font-family: 'Montserrat', sans-serif;
+ }
+ 
+h2, h3 {
+   color: white;
+   text-align: center;
+   position: relative;
+   top: 29px;
+   font-size: 25px;
+   font-family: 'Montserrat', sans-serif;
+ }
+ 
+h4 {
+   color: white;
+   text-align: center;
+   position: relative;
+   font-size: 20px;
+   font-family: 'Montserrat', sans-serif;
+ }
+ 
+ .creditos {
+   justify-content: center;
+   width: 100%;
+   bottom: 0px;
+   position: absolute;
+ }
+ 
+.botao {
+  width: 380px;
+  height: 60px;
+  margin: 0 auto;
+  display: flex;
+  border: none;
+  border-radius: 3px;
+  font-family: 'Montserrat', sans-serif; 
+  font-size: 30px; 
+  text-align: center;
+  justify-content: center;
+ }
+ .movebotao {
+   margin: 50px;
+   display: flex;
+   justify-content: center;
+ }
+ 
+ @media screen and (max-width: 480px) {
+   .botao {
+      width: 350px;
+      height: 60px;
+      margin: 0 auto;
+      display: flex;
+      border: none;
+      border-radius: 3px;
+      font-family: 'Montserrat', sans-serif; 
+      font-size: 30px; 
+      text-align: center;
+      justify-content: center;
+    }
+ 
+    h2, h3 {
+      color: white;
+      text-align: center;
+      position: relative;
+ 
+      font-size: 14px;
+      font-family: 'Montserrat', sans-serif;
+    }
+ 
+    h4 {
+      color: white;
+      text-align: center;
+      position: relative;
+      font-size: 12px;
+      font-family: 'Montserrat', sans-serif;
+  }
+  
+ }
+ 
+</style>
+   <div id="logo"> 
+   <center><img src="./logo.png" alt="Edigelson Nascimento" width="200px" height="200px"/></center>
+   <h1>Edigelson Nascimento</h1><br>
+   <h2>🤖 • Em { Manutenção  }</h2>
+  </div>
+  </header>
+  
+<body>
+    
+  </body>
+
+  <footer class="creditos"><!-- Créditos -->
+<center><img src="./logo.png" alt="Edigelson Nascimento" width="30px" height="30px"/></center>
+  <h4>Edigelson Nascimento © 2022 - Todos os direitos reservados.</h4>
+ </footer>
+ 
  </html>

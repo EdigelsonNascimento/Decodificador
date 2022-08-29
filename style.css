@@ -1,6 +1,6 @@
 /* Resetar Corpo */
 html, body {
-  background: red;
+  background: white;
   padding: 0;
   margin: 0;
   width: 100%;
@@ -15,7 +15,7 @@ html, body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background: black;
+  background: #181018;
 }
 /* Boas vindas */
 .bv {
@@ -24,12 +24,12 @@ html, body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background: white;
+  background: #302830;
 }
 /* Estilo para logo */
 h1 {
   width: 20px;
-  color: white;
+  color: #401818;
   font-size: 50px;
   text-align: center;
   margin-top: 40px;
@@ -38,7 +38,7 @@ h1 {
 /* Estilo H2 */
 h2 {
   width: 400px;
-  color: blck;
+  color: #E0E0E0;
   font-size: 20px;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
@@ -148,5 +148,5 @@ textarea, textarea:focus, input:focus, select:focus {
 }
 /* Resposivo mobile */
 @media screen and (max-width: 480px) {
-
+   max-width: 480px;
 } 

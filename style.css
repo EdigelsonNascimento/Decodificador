@@ -1,5 +1,5 @@
 /* Resetar Corpo */
-html, body, * {
+html, body, {
   background: red;
   padding: 0;
   margin: 0;

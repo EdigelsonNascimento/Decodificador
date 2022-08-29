@@ -61,9 +61,6 @@ h4 {
    font-family: 'Montserrat', sans-serif;
  }
  
- .caixa {
-   margin-top: 80px;
- }
 
 #caixa > textarea {
     text-align: center;
@@ -125,13 +122,25 @@ textarea, textarea:focus, input:focus, select:focus {
       font-family: 'Montserrat', sans-serif; 
       font-size: 13px; 
       text-align: center;
-      list-style: none;
-      display: inline-block;
    }
+ ul {
+   margin: 0 auto;
+   display: inline-block;
+   list-style: none;
+ }
+ li {
+   float: left;
+   margin: 0 3px;
+ }
  
  @media screen and (max-width: 480px) {
    .caixa {
-     margin-top: 120px;
+     width: 100px;
+     height: 20px;
+     margin-top: 90px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
    }
 
   #caixa > textarea {
@@ -195,23 +204,29 @@ textarea, textarea:focus, input:focus, select:focus {
    <h1>Edigelson Nascimento</h1><br>
    <h2>🤖 • Bem vindo(a) ao { Decodificador}</h2>
   </header>
-  
+  <br>
+  <br>
+  <br>
 <body>
-  
-   <section class="caixa">
+   <center><textarea id="caixamsg" rows="3" cols="20"placeholder="Digite aqui"></textarea><br /></div>
+<textarea id="caixamsg2" rows="3" cols="20"></textarea></center>
 
-     <center><textarea id="caixamsg" rows="3" cols="20"placeholder="Digite aqui"></textarea><br /></div>
-<textarea id="caixamsg2" rows="3" cols="20"></textarea>
+   <center><section class="caixa">
+
 <br><br>
+
 <ul>
 <li><button id="botao1">🔒 Criptografar</button></li>
 <li><button id="botao2">🔓 Descriptografar</button></li>
 <li><button id="copiar">📝 Cópia</button></li>
 <li><button id="limpar">🧹 Limpar</button></li>
 </ul>
-</div></center>
+</div>
 
-   </section>
+   </section></center>
+   <br>
+   <br>
+   <br>
    <br>
    <br>
    <br>

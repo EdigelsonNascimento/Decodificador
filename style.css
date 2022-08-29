@@ -13,12 +13,10 @@ html, body {
 }
 /* Boas vindas */
 .bv {
-  width: auto;
   display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
-  background: #302830;
+  background: white;
 }
 /* Estilo para logo */
 h1 {

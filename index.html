@@ -136,16 +136,15 @@ li {
   margin: 0 3px;
 }
  
-#rodape {
-  width: 100%;
-  position: relative;
-  margin-top: 200px;
-}
- 
 .badge {
   margin-top: 100px;
+  flex-grow: 100vh;
 }
- 
+ .conteiner {
+   display:flex;
+   flex-direction: column;
+   min-height: 100vh;
+ }
  @media screen and (max-width: 480px) {
    
    .caixa {
@@ -155,11 +154,6 @@ li {
      display: flex;
      justify-content: center;
      align-items: center;
-   }
-   
-  #rodape {
-    position: relative;
-    margin-top: 100px;
    }
    
   .badge {
@@ -252,15 +246,16 @@ li {
  
    <script src="./encrypt.js"></script>
    
+  <div class="conteiner">
    <div class="badge">
 <h4><p>😎 Conquista Badge: One Oracle Next Education</p>
    <img src="https://d335luupugsy2.cloudfront.net/cms%2Ffiles%2F10224%2F1659462279Badge_Sharer_Alura_ChallengeOracleONE_2000x2000_V3.png?utm_campaign=alura_latam_-_challenge_email_projeto_1_br&utm_medium=email&utm_source=RD+Station" alt="alura" width="300px" height="300px"/></h4>
   </div>
   
+  </div>
   <footer><!-- Créditos -->
-  <div id="rodape">
    <h4><img src="./logo.png" alt="Edigelson Nascimento" width="30px" height="30px"/>
-  <p>2022 © by Edigelson Nascimento.</p></h4></div>
+  <p>Copyrights © 2022 by Edigelson Nascimento.</p></h4>
  </footer>
  
   </body>

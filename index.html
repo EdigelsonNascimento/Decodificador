@@ -209,9 +209,11 @@ li {
   </div>
   <footer><!-- Créditos -->
    <h4><img src="./logo.png" alt="ed" width="30px" height="30px"/>
-  <p>Copyright © 2024 by e7dge.</p></h4>
+  <p>Copyright © 2022 - <span id="currentYear"></span> by e7dge.</p></h4>
  </footer>
- 
+ <script>
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
   </body>
   
  </html>

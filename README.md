@@ -29,8 +29,6 @@ O layout do projeto foi desenhado para ser simples e intuitivo. Ele utiliza a fo
 
 ## Conquista
 
-![Conquista do Challenge]
-
 Este projeto faz parte do Challenge da Alura em parceria com a Oracle, onde recebi a badge de conquista.
 
 ## Executando o Projeto

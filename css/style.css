@@ -1,0 +1,131 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+}
+body {
+  background: black;
+}
+a {
+  text-decoration: none;
+}
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Montserrat', sans-serif;
+}
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+}
+h2, h3 {
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 29px;
+  font-size: 25px;
+  font-family: 'Montserrat', sans-serif;
+}
+h4 {
+  color: white;
+  text-align: center;
+  position: relative;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+textarea, textarea:focus, input:focus, select:focus {
+  outline: 0;
+  width: 300px;
+  height: 80px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  border: none;
+  background: black;
+  font-size: 30px;
+  color: white;
+  border-radius: 2px;
+  resize: none;
+}
+#botao1, #botao2, #copiar, #limpar {
+  width: 220px;
+  height: 60px;
+  margin-top: 4px;
+  border: none;
+  border-radius: 3px;
+  font-family: 'Montserrat', sans-serif; 
+  font-size: 20px; 
+  text-align: center;
+}
+ul {
+  margin: 0 auto;
+  display: inline-block;
+  list-style: none;
+}
+li {
+  float: left;
+  margin: 0 3px;
+}
+.badge {
+  margin-top: 100px;
+  flex-grow: 100vh;
+}
+.conteiner {
+  display: flex;
+  flex-direction: column;
+  min-height: 65vh;
+}
+@media screen and (max-width: 480px) {
+  .caixa {
+    width: 100px;
+    height: 20px;
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .badge {
+    margin-top: 200px;
+  }
+  textarea, textarea:focus, input:focus, select:focus {
+    outline: 0;
+    width: 300px;
+    height: 80px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    background: black;
+    font-size: 30px;
+    color: white;
+    border-radius: 2px;
+    resize: none;
+  }
+  #botao1, #botao2, #copiar, #limpar {
+    width: 300px;
+    height: 60px;
+    margin-top: 4px;
+    border: none;
+    border-radius: 3px;
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 20px; 
+    text-align: center;
+    list-style: none;
+  }
+  h2 {
+    color: white;
+    text-align: center;
+    position: relative;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  h4 {
+    color: white;
+    text-align: center;
+    position: relative;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+  }
+}

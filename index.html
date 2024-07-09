@@ -8,172 +8,16 @@
  <link rel="preconnect" href="https://fonts.googleapis.com"> 
  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap" rel="stylesheet">
- <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
- <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
- <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
- <link rel="manifest" href="./site.webmanifest">
+ <link rel="apple-touch-icon" sizes="180x180" href="./img/apple-touch-icon.png">
+ <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-32x32.png">
+ <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon-16x16.png">
+ <link rel="manifest" href="./img/site.webmanifest">
    <title>{ Decodificador }</title> 
   </head>
   
  <header>
-   
- <style>
- 
- * {
-   margin: 0;
-   padding: 0;
-   user-select: none;
- }
-
-body {
-    background: black;
-}
-
- a {
-   text-decoration: none;
- }
- 
- h1 {
-   color: white;
-   text-align: center;
-   font-size: 50px;
-   font-family: 'Montserrat', sans-serif;
- }
- 
- h1 {
-   color: white;
-   text-align: center;
-   font-size: 30px;
-   font-family: 'Montserrat', sans-serif;
- }
- 
-h2, h3 {
-   color: white;
-   text-align: center;
-   position: relative;
-   top: 29px;
-   font-size: 25px;
-   font-family: 'Montserrat', sans-serif;
- }
- 
-h4 {
-  color: white;
-  text-align: center;
-  position: relative;
-  font-size: 20px;
-  font-family: 'Montserrat', sans-serif;
-}
-
-textarea, textarea:focus, input:focus, select :focus {
-  
-  outline: 0;
-  width: 300px;
-  height: 80px;
-  text-align: center;
-  font-family: 'Montserrat', sans-serif;
-  border:none;
-  background: black;
-  font-size: 30px;
-  color: white;
-  border-radius: 2px;
-  resize: none;
-}
-
-#botao1, #botao2, #copiar, #limpar {
-  width: 220px;
-  height: 60px;
-  margin-top: 4px;
-  border: none;
-  border-radius: 3px;
-  font-family: 'Montserrat', sans-serif; 
-  font-size: 20px; 
-  text-align: center;
-}
-
-ul {
-  margin: 0 auto;
-  display: inline-block;
-  list-style: none;
-}
- 
-li {
-  float: left;
-  margin: 0 3px;
-}
- 
-.badge {
-  margin-top: 100px;
-  flex-grow: 100vh;
-}
- .conteiner {
-   display:flex;
-   flex-direction: column;
-   min-height: 65vh;
- }
- 
- @media screen and (max-width: 480px) {
-   
-   .caixa {
-     width: 100px;
-     height: 20px;
-     margin-top: 90px;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-   }
-   
-  .badge {
-    margin-top: 200px;
-   }
-
-  textarea, textarea:focus, input:focus, select :focus {
-     outline: 0;
-     width: 300px;
-     height: 80px;
-     text-align: center;
-     font-family: 'Montserrat', sans-serif;
-     border:none;
-     background: black;
-     font-size: 30px;
-     color: white;
-     border-radius: 2px;
-     resize: none;
-    }
-    
-   #botao1, #botao2, #copiar, #limpar {
-      width: 300px;
-      height: 60px;
-      margin-top: 4px;
-      border: none;
-      border-radius: 3px;
-      font-family: 'Montserrat', sans-serif; 
-      font-size: 20px; 
-      text-align: center;
-      list-style: none;
-    }
-   
-    h2 {
-      color: white;
-      text-align: center;
-      position: relative;
-      font-size: 14px;
-      font-family: 'Montserrat', sans-serif;
-    }
- 
-    h4 {
-      color: white;
-      text-align: center;
-      position: relative;
-      font-size: 12px;
-      font-family: 'Montserrat', sans-serif;
-  }
-  
- }
- 
-</style>
-
    <center>
-     <main><img src="./logo.png" alt="ed" width="200px" height="200px"/></main></center>
+     <main><img src="./img/logo.png" alt="ed" width="200px" height="200px"/></main></center>
    <h1>Decodificador</h1><br>
    <h2>🤖 • Bem vindo(a) ao { Decodificador }</h2>
   </header>
@@ -198,7 +42,7 @@ li {
 
    </section></center>
  
-   <script src="./encrypt.js"></script>
+   <script src="./js/encrypt.js"></script>
    
   <div class="conteiner">
    <div class="badge">
@@ -208,8 +52,8 @@ li {
   
   </div>
   <footer><!-- Créditos -->
-   <h4><img src="./logo.png" alt="ed" width="30px" height="30px"/>
-  <p>Copyright © 2022 - <span id="currentYear"></span> by Edigelson Nascimento.</p></h4>
+   <h4><img src="./img/logo.png" alt="ed" width="30px" height="30px"/>
+  <p>Copyright © 2022 - <span id="currentYear"></span> Este site foi feito com ♥️ por Edigelson Nascimento.</p></h4>
  </footer>
  <script>
         document.getElementById('currentYear').textContent = new Date().getFullYear();

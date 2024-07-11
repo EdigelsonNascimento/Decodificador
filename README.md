@@ -31,6 +31,11 @@ O layout do projeto foi desenhado para ser simples e intuitivo. Ele utiliza a fo
 
 Este projeto faz parte do Challenge da Alura em parceria com a Oracle, onde recebi a badge de conquista.
 
+## Créditos
+![Logo](./img/logo.png)
+
+&copy; 2022 - 2024 Edigelson Nascimento. Todos os direitos reservados. **Este site foi desenvolvido com ❤️ por Edigelson Nascimento**
+
 ## Executando o Projeto
 
 Para executar o projeto localmente, siga os passos abaixo:
